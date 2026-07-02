@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebarlogo from './Sidebarlogo'
+import SidebarLogo from './Sidebarlogo'
 import SidebarNav from './SidebarNav'
  
 const Sidebar = ({ isMobileMenuOpen, onClose }) => {
