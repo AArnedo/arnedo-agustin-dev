@@ -19,7 +19,7 @@ const Sidebar = ({ isMobileMenuOpen, onClose }) => {
         transition-transform duration-300 ease-in-out
         ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0`}
       >
-        <Sidebarlogo />
+        <SidebarLogo />
         <div className="grow flex items-center">
           <SidebarNav onNavigate={onClose} />
         </div>
