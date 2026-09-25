@@ -1,8 +1,6 @@
 import {
   HiOutlineTemplate,
   HiOutlineChartBar,
-  HiOutlineLockClosed,
-  HiOutlineShoppingCart,
 } from 'react-icons/hi'
 
 import imgTiendaBook from  '../../assets/projects/tiendabook_project.png'
@@ -19,7 +17,7 @@ export const projects = [
     repoUrl: 'https://github.com/AArnedo/reading-dashboard',
     image: bookTracker,
     Icon: HiOutlineChartBar,
-    featured: false,
+    featured: true,
   },
   {
     id: 'recetas-cafecitos',
@@ -42,7 +40,7 @@ export const projects = [
     repoUrl: 'https://github.com/tu-usuario/turnos',
     image: imgTiendaBook,
     Icon: HiOutlineTemplate,
-    featured: true,
+    featured: false,
   },
 
 ]
