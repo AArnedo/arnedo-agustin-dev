@@ -23,7 +23,7 @@ const TopHeader = ({ activeSection, onMenuClick }) => {
           </span>
         </div>
         <a 
-          href="/tu-cv.pdf" // Reemplaza por la ruta real de tu PDF en la carpeta public
+          href="../../public/cv.pdf"
           download="CV_Agustin_Arnedo.pdf"
           className="flex items-center gap-2 text-md font-e text-[#404040] bg-[#40404057] hover:bg-[#404040] hover:text-[#ECECEC] px-6 py-2 rounded-xl text-sm transition-all duration-300 shadow-sm hover:shadow active:scale-95"
         >
