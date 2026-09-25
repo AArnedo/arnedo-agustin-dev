@@ -7,6 +7,7 @@ import {
 
 import imgTiendaBook from  '../../assets/projects/tiendabook_project.png'
 import imgBaristaBook from '../../assets/projects/RecetasCafecito.png'
+import bookTracker from '../../assets/projects/BookTracker.png'
  
 export const projects = [
   {
@@ -32,5 +33,16 @@ export const projects = [
     Icon: HiOutlineChartBar,
     featured: false,
   },
+  {
+    id: 'book-tracker',
+    title: 'BookTracker Dashboard',
+    description: 'BookTracker es un dashboard full stack para organizar tu biblioteca personal: buscá libros vía la API de Open Library, trackeá tu progreso de lectura y visualizá tus estadísticas. Construido con React, Node.js, Express y MongoDB, con autenticación JWT y datos aislados por usuario.',
+    stack: ['React','Node.js','Express','MongoDB', 'TailwindCSS'],
+    demoUrl: 'https://dashboard-tracking-book.vercel.app/',
+    repoUrl: 'https://github.com/AArnedo/reading-dashboard',
+    image: bookTracker,
+    Icon: HiOutlineChartBar,
+    featured: false,
+  }
  
 ]
